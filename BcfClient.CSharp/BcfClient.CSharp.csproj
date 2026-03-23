@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <RootNamespace>BcfClient</RootNamespace>
+    <AssemblyName>BcfClient</AssemblyName>
+    <Version>0.1.0</Version>
+
+    <PackageId>de.openfabtwin.BcfClient</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Zaqi Fathis</Authors>
+    <Company>openfabtwin</Company>
+    <Description>BCF API v3.0 Client for C#</Description>
+    <Copyright>Copyright © 2026 Zaqi Fathis</Copyright>
+  </PropertyGroup>
+
+  <!-- Reference the generated project -->
+  <ItemGroup>
+    <ProjectReference Include="..\Generated\src\BcfClient.Generated\BcfClient.Generated.csproj" />
+  </ItemGroup>
+
+</Project>
