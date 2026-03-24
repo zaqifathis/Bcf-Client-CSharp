@@ -1,0 +1,6 @@
+
+
+bin/
+obj/
+Generated/src/BcfClient.Generated/bin/
+Generated/src/BcfClient.Generated/obj/
