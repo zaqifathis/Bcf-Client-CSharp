@@ -19,7 +19,7 @@
 
   <!-- Reference the generated project -->
   <ItemGroup>
-    <ProjectReference Include="..\Generated\src\BcfClient.Generated\BcfClient.Generated.csproj" />
-  </ItemGroup>
+  <ProjectReference Include="..\Generated\src\BcfClient.Generated\BcfClient.Generated.csproj" />
+</ItemGroup>
 
 </Project>
